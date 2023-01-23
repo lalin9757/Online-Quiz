@@ -1,0 +1,325 @@
+/* Body start here */
+/*//////////////// */
+body {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    margin: auto;
+    background-color: #012a4a;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Menu start here  */
+/*//////////////// */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #004AAD;
+}
+
+nav a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 10px;
+}
+
+nav a h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+nav a h4 {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Progress box end here  */
+/*//////////////// */
+.progress-container {
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: #5E17EB;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.progress-box-top {
+    padding: 1px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    background-color: #004AAD;
+    border: 2px solid #ffffff;
+}
+
+.progress-container .progress-box-top h3 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.progress-box {
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+}
+
+.progress-box-inner {
+    height: 27px;
+    background-color: #55a630;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* quiz box end here  */
+/*//////////////// */
+.quiz-question-box {
+    padding: 1px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #004AAD;
+    border: 1px solid #ffffff;
+}
+
+.quiz-question-box h3 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Quiz box part start here  */
+/*/////////////////////// */
+
+.quiz-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #5E17EB;
+    text-align: center;
+    height: 515px;
+}
+
+.quiz-container-box {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 20px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    background-color: #004AAD;
+    border: 2px solid #ffffff;
+    box-shadow: rgba(121, 121, 123, 0.727) 0px 7px 29px 0px;
+}
+
+.quiz-container-box:hover {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 20px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    transition: 0.7s;
+    background-color: #00000066;
+    border: 2px solid #ffffff;
+    box-shadow: rgba(255, 255, 255, 0.653) 0px 5px 15px;
+}
+
+.quiz-form {
+    text-align: start;
+}
+
+.quiz-form input{
+    cursor: pointer;
+}
+
+.quiz-form label {
+    color: #ffffffe3;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.question-style {
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #5E17EB;
+    border-radius: 15px;
+}
+
+.question-style:hover {
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #012a4a;
+    border-radius: 15px;
+    transition: 0.7s;
+    transform: translate(5px);
+}
+.btn{
+    text-align: center;
+}
+
+.btn-primary {
+    margin: auto;
+    cursor: pointer;
+}
+
+.quiz-container .btn-primary {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #004AAD;
+    border-radius: 20px;
+    border-top: #004AAD;
+    border-left: #004AAD;
+    border-right: #004AAD;
+    border-bottom: 4px solid #ffffff;
+}
+
+.quiz-container .btn-primary:hover {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #00000066;
+    border-radius: 20px;
+    border-bottom: 4px solid #ffffff;
+    transition: 0.7s;
+    box-shadow: rgba(255, 255, 255, 0.653) 0px 5px 15px;
+    transition: 0.7s;
+    transform: translate(5px);
+}
+
+/* Footer part end here  */
+/*//////////////// */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #004AAD;
+}
+
+footer p {
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/* Footer part end here  */
+/*//////////////// */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #004AAD;
+}
+
+footer p {
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/*/////////////////////// */
+/* Mobile device here  */
+/*/////////////////////// */
+@media(max-width:767px) {
+
+    /* Body start here */
+    /*//////////////// */
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin: auto;
+        background-color: #012a4a;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    /* Body end here */
+    /*//////////////// */
+
+    /* Menu start here  */
+    /*//////////////// */
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #004AAD;
+    }
+
+    nav a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 8px;
+    }
+
+    nav a h2 {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    nav a h4 {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    /* Menu end here  */
+    /*//////////////// */
+
+    /* Footer part start here  */
+    /*//////////////// */
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #004AAD;
+    }
+
+    footer p {
+        font-size: 15px;
+        color: #ffffff;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
